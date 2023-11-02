@@ -5,11 +5,9 @@
 module tt_um_adriannovosel_top (
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
-	/* verilator lint_off UNUSEDSIGNAL */
     input  wire [7:0] uio_in,
     output wire [7:0] uio_out,
     output wire [7:0] uio_oe,
-	/* verilator lint_off UNUSEDSIGNAL */
     input  wire       ena,
     input  wire       clk,
     input  wire       rst_n
