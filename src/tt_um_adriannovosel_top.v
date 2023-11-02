@@ -18,5 +18,5 @@ module tt_um_adriannovosel_top (
              .serial_out(uo_out[0]), .ovf_global(uo_out[1]), .ovf_RTC_out(uo_out[2]), .a0_out(uo_out[3]), .a1_out(uo_out[4]), 
 	     .a2_out(uo_out[5]), .a3_out(uo_out[6]), .SL_out(uo_out[7]));
    assign uio_out = 8'b0;
-    assign uio_oe = 8'b11110000;
+   assign uio_oe = 8'b00000000;
 endmodule // top
