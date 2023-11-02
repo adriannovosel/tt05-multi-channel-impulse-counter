@@ -6,6 +6,7 @@ module mux_9to1(input wire [8:0] data,
 
   always @(*) begin
     casez (select)  
+      4'b0000 : data_out = 1'b0;
       4'b0001 : data_out = data[0]; 
       4'b0010 : data_out = data[1]; 
       4'b0011 : data_out = data[2];
